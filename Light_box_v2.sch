@@ -9503,21 +9503,21 @@ DIN A3, landscape with location and doc. field</description>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="5V"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="POWER" library="con-jack" library_urn="urn:adsk.eagle:library:154" deviceset="JACK-PLUG" device="1" package3d_urn="urn:adsk.eagle:package:7494/1" override_package3d_urn="urn:adsk.eagle:package:22636406/2" override_package_urn="urn:adsk.eagle:footprint:7489/1"/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="2.2k"/>
 <part name="BASS" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1" override_package3d_urn="urn:adsk.eagle:package:22694683/2" override_package_urn="urn:adsk.eagle:footprint:8281/1"/>
 <part name="MID" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1" override_package3d_urn="urn:adsk.eagle:package:22694675/2" override_package_urn="urn:adsk.eagle:footprint:8281/1"/>
 <part name="TREBLE" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1" override_package3d_urn="urn:adsk.eagle:package:22694673/2" override_package_urn="urn:adsk.eagle:footprint:8281/1"/>
 <part name="IC1" library="ATMEGA328-PU" library_urn="urn:adsk.eagle:library:22635470" deviceset="ATMEGA328-PU" device="" package3d_urn="urn:adsk.eagle:package:22635473/1" override_package3d_urn="urn:adsk.eagle:package:22635473/2" override_package_urn="urn:adsk.eagle:footprint:22635471/1"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="MIC" library="CMA-6542PF" library_urn="urn:adsk.eagle:library:22635506" deviceset="CMA-6542PF" device="" package3d_urn="urn:adsk.eagle:package:22635509/1" override_package3d_urn="urn:adsk.eagle:package:22694668/2" override_package_urn="urn:adsk.eagle:footprint:22635507/1"/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="MODE" library="1825910-6" library_urn="urn:adsk.eagle:library:22635586" deviceset="1825910-6" device="" package3d_urn="urn:adsk.eagle:package:22635589/1" override_package3d_urn="urn:adsk.eagle:package:22635589/3" override_package_urn="urn:adsk.eagle:footprint:22635587/1"/>
 <part name="RESET_F" library="1825910-6" library_urn="urn:adsk.eagle:library:22635586" deviceset="1825910-6" device="" package3d_urn="urn:adsk.eagle:package:22635589/1" override_package3d_urn="urn:adsk.eagle:package:22635589/2" override_package_urn="urn:adsk.eagle:footprint:22635587/1"/>
@@ -9526,41 +9526,49 @@ DIN A3, landscape with location and doc. field</description>
 <part name="AUX" library="SJ1-3523N" library_urn="urn:adsk.eagle:library:22634846" deviceset="SJ1-3523N" device="" package3d_urn="urn:adsk.eagle:package:22634849/2"/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22pF"/>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22pF"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="5V"/>
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="5V"/>
-<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220"/>
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220"/>
+<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220"/>
 <part name="MSGEQ7" library="ic-package" library_urn="urn:adsk.eagle:library:239" deviceset="DIL8" device="" package3d_urn="urn:adsk.eagle:package:29519/2"/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="5V"/>
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
+<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
-<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
-<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="200k"/>
+<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="33pF"/>
+<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
+<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="22k"/>
+<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="22k"/>
+<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="SUPPLY11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="S1" library="switch" deviceset="TL32PO" device="" package3d_urn="urn:adsk.eagle:package:27745/1" override_package3d_urn="urn:adsk.eagle:package:22694664/2" override_package_urn="urn:adsk.eagle:footprint:22694665/1"/>
 <part name="U1" library="my_audio_amp" deviceset="OPA1671IDBVR" device="" override_package3d_urn="urn:adsk.eagle:package:22655012/2" override_package_urn="urn:adsk.eagle:footprint:22655013/1"/>
 <part name="VR1" library="Bourns - PTV09A-4020F-A103" deviceset="BOURNS_PTV09A-4020F-A103" device="BOURNS_PTV09A-4020F-A103_0_0" override_package3d_urn="urn:adsk.eagle:package:22694659/2" override_package_urn="urn:adsk.eagle:footprint:22694660/1"/>
-<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="500"/>
 <part name="SUPPLY12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="5V"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
+<part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="5V"/>
+<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<text x="-7.62" y="-83.82" size="1.778" layer="91">Notes:
+          &gt; Should be a decoupling capacitor between Aux and amp input
+          &gt; Should use a bigger log pot for volume control (around 500k) so R2 can be at least 1k
+          &gt; Mode button has been changed since last Oshpark order
+          &gt; Aux levels are in millivolt range (max: 2.2 V peak-to-peak)
+          &gt; Mic levels in millivolt range but probably smaller than aux at full volume
+          &gt; To get from -1V&lt;-&gt;1V to -5V&lt;-&gt;5V range we should be able to get around 28dB of gain at max volume on pot.</text>
 </plain>
 <instances>
 <instance part="P+1" gate="VCC" x="-116.84" y="71.12" smashed="yes">
@@ -9672,8 +9680,8 @@ DIN A3, landscape with location and doc. field</description>
 <instance part="P+5" gate="VCC" x="121.92" y="81.28" smashed="yes">
 <attribute name="VALUE" x="119.38" y="78.74" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SUPPLY7" gate="GND" x="7.62" y="73.66" smashed="yes">
-<attribute name="VALUE" x="5.715" y="70.485" size="1.778" layer="96"/>
+<instance part="SUPPLY7" gate="GND" x="0" y="73.66" smashed="yes">
+<attribute name="VALUE" x="-1.905" y="70.485" size="1.778" layer="96"/>
 </instance>
 <instance part="P+6" gate="VCC" x="-5.08" y="142.24" smashed="yes">
 <attribute name="VALUE" x="-7.62" y="139.7" size="1.778" layer="96" rot="R90"/>
@@ -9702,7 +9710,7 @@ DIN A3, landscape with location and doc. field</description>
 </instance>
 <instance part="C6" gate="G$1" x="35.56" y="22.86" smashed="yes" rot="R90">
 <attribute name="NAME" x="34.925" y="26.416" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="39.751" y="23.876" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="44.704" y="27.051" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SUPPLY9" gate="GND" x="76.2" y="-5.08" smashed="yes">
 <attribute name="VALUE" x="74.295" y="-8.255" size="1.778" layer="96"/>
@@ -9713,11 +9721,11 @@ DIN A3, landscape with location and doc. field</description>
 </instance>
 <instance part="C7" gate="G$1" x="58.42" y="12.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="65.405" y="16.256" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="62.611" y="13.716" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="59.944" y="16.891" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C8" gate="G$1" x="58.42" y="2.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="57.785" y="1.016" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="62.611" y="3.556" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="67.564" y="1.651" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R9" gate="G$1" x="-99.06" y="40.64" smashed="yes">
 <attribute name="NAME" x="-102.87" y="42.1386" size="1.778" layer="95"/>
@@ -9734,12 +9742,8 @@ DIN A3, landscape with location and doc. field</description>
 <instance part="SUPPLY10" gate="GND" x="101.6" y="-12.7" smashed="yes">
 <attribute name="VALUE" x="99.695" y="-15.875" size="1.778" layer="96"/>
 </instance>
-<instance part="R11" gate="G$1" x="208.28" y="-38.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="206.7814" y="-41.91" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="211.582" y="-41.91" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="SUPPLY11" gate="GND" x="208.28" y="-50.8" smashed="yes">
-<attribute name="VALUE" x="206.375" y="-53.975" size="1.778" layer="96"/>
+<instance part="SUPPLY11" gate="GND" x="208.28" y="-38.1" smashed="yes">
+<attribute name="VALUE" x="206.375" y="-41.275" size="1.778" layer="96"/>
 </instance>
 <instance part="S1" gate="BEF1" x="-73.66" y="17.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="-71.12" y="22.86" size="1.778" layer="95" rot="R180"/>
@@ -9769,6 +9773,13 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="DRAWING_NAME" x="184.15" y="-83.82" size="2.54" layer="94"/>
 <attribute name="LAST_DATE_TIME" x="184.15" y="-88.9" size="2.286" layer="94"/>
 <attribute name="SHEET" x="197.485" y="-93.98" size="2.54" layer="94"/>
+</instance>
+<instance part="P+9" gate="VCC" x="208.28" y="27.94" smashed="yes">
+<attribute name="VALUE" x="205.74" y="25.4" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R11" gate="G$1" x="208.28" y="15.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="206.7814" y="11.43" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="211.582" y="11.43" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -9839,7 +9850,7 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="0" y1="127" x2="0" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="MID" gate="G$1" pin="3"/>
 <wire x1="0" y1="106.68" x2="0" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="0" y1="83.82" x2="7.62" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="0" y1="83.82" x2="0" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="106.68" x2="0" y2="106.68" width="0.1524" layer="91"/>
 <junction x="0" y="106.68"/>
 <pinref part="BASS" gate="G$1" pin="3"/>
@@ -9872,11 +9883,6 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="101.6" y1="-7.62" x2="101.6" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R11" gate="G$1" pin="1"/>
-<pinref part="SUPPLY11" gate="GND" pin="GND"/>
-<wire x1="208.28" y1="-43.18" x2="208.28" y2="-48.26" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="R12" gate="G$1" pin="1"/>
 <pinref part="SUPPLY12" gate="GND" pin="GND"/>
 <wire x1="-66.04" y1="-7.62" x2="-66.04" y2="-10.16" width="0.1524" layer="91"/>
@@ -9886,6 +9892,15 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="-25.4" y1="15.24" x2="-22.86" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="SUPPLY13" gate="GND" pin="GND"/>
 <wire x1="-22.86" y1="15.24" x2="-22.86" y2="2.54" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="MODE" gate="G$1" pin="1"/>
+<pinref part="MODE" gate="G$1" pin="2"/>
+<wire x1="205.74" y1="-27.94" x2="208.28" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="-27.94" x2="210.82" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="-35.56" x2="208.28" y2="-27.94" width="0.1524" layer="91"/>
+<junction x="208.28" y="-27.94"/>
+<pinref part="SUPPLY11" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -9961,6 +9976,11 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="-50.8" y1="-5.08" x2="-60.96" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="U1" gate="A" pin="V+"/>
 <wire x1="-60.96" y1="-5.08" x2="-60.96" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+9" gate="VCC" pin="VCC"/>
+<pinref part="R11" gate="G$1" pin="2"/>
+<wire x1="208.28" y1="25.4" x2="208.28" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -10210,17 +10230,6 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="101.6" y1="12.7" x2="101.6" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="MODE" gate="G$1" pin="1"/>
-<pinref part="MODE" gate="G$1" pin="2"/>
-<wire x1="205.74" y1="-27.94" x2="208.28" y2="-27.94" width="0.1524" layer="91"/>
-<pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="208.28" y1="-27.94" x2="210.82" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="-33.02" x2="208.28" y2="-27.94" width="0.1524" layer="91"/>
-<junction x="208.28" y="-27.94"/>
-</segment>
-</net>
 <net name="TREBEL" class="0">
 <segment>
 <pinref part="IC1" gate="IC" pin="(OC0B/T1)PD5"/>
@@ -10267,6 +10276,9 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="175.26" y1="5.08" x2="208.28" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="5.08" x2="208.28" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="208.28" y="-7.62"/>
+<pinref part="R11" gate="G$1" pin="1"/>
+<wire x1="208.28" y1="10.16" x2="208.28" y2="5.08" width="0.1524" layer="91"/>
+<junction x="208.28" y="5.08"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -10306,6 +10318,10 @@ DIN A3, landscape with location and doc. field</description>
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
